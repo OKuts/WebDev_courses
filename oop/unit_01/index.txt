@@ -1,0 +1,21 @@
+сущность Content
+------------------------------------
+свойства    kursName
+            content
+
+методы      setContent
+            getContent
+
+
+
+сущность  News наследует Content
+------------------------------------
++ свойства      idNews
+                dateNews
+
+
+
+сущность  Task наследует Content
+------------------------------------
++ свойства      numberLesson
+                namberTask
