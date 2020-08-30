@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  
+}
+.head-main {
+  min-height: calc(100vh - 60px);
+}
+.App-link {
+  color: #61dafb;
+}
+
+

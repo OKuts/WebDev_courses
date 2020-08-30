@@ -1,0 +1,22 @@
+.block {
+    height: 350px;
+    width: 200px;
+    background: rgb(173, 202, 247);
+    border: 1px solid rgb(22, 87, 161);
+    text-align: center;
+}
+
+select {
+    background: rgb(173, 202, 247);
+    border: none;
+    font-size: 22px;
+    outline: none;
+}
+
+.temperature, .speed {
+    font-size: 22px;
+}
+
+.icon, .wind {
+    height: 80px;
+}

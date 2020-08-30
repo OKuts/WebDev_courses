@@ -1,0 +1,21 @@
+.block {
+    display: flex;
+    font-size: larger;
+    margin: 10px auto;
+}
+
+main .block:nth-child(even) {
+    background: #e3e6e9;
+}
+.left-block {
+    width: 200px;
+    flex: none;
+    text-align: start;
+    font-weight: bolder;
+    background:white;
+}
+
+.right-block {
+    flex-grow: 1;
+    text-align: start;
+}

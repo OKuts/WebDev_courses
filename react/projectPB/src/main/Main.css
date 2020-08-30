@@ -1,0 +1,15 @@
+.area {
+    justify-content: center;
+}
+
+.work-area {
+    background: rgb(172, 170, 170);
+    height: 10rem;
+    border: 1px solid gray;
+    width: 15.8rem;
+    margin: 2rem 1rem;
+}
+
+.add-tab {
+    margin-left: 4rem;
+}

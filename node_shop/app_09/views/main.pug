@@ -1,0 +1,9 @@
+include header
+h1 Hello EXPRESS
+img(src='images/server.jpg', alt='server')
+each val, index in goods
+    p #{val['name']}
+    img(
+        src='images/'+val['image']
+        class="test"
+    )

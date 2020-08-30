@@ -1,0 +1,43 @@
+.site-nav {
+    width: 300px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    transition: all ease 0.7s;
+    /* left: -270px; */
+}
+
+.menu-part-left {
+    width: 270px;
+    background: rgb(118, 184, 178);
+    min-height: 100vh;
+    padding: 8px;
+}
+
+.move-menu {
+    width: 30px;
+    background: rgb(157, 206, 211);
+    min-height: 100vh;
+    font-size: 40px;
+    color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.square-do {
+    border: 1px solid #fff;
+    min-width: 30px;
+    text-align: center;
+}
+
+.cart-edit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-show {
+    display: none;
+}

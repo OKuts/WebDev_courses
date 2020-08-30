@@ -1,0 +1,20 @@
+include init
+title Many goods
+body
+include header
+main
+    include nav
+    div.container
+        div.row
+            each val, index in goods
+                div.card.col-12.col-md-6.col-lg-4.col-xl-3
+                    a(href="/goods?id="+index)
+                        div.card-body
+                            h5.cart-title  #{val['name']}
+                            img(
+                            src='images/'+val['image']
+                            class="cart-img-top"
+                            )
+                            p  #{val['cost']} UAN
+                    button(class="btn btn-primary add-to-cart", data-goods_id=index) Go somewhere
+include footer

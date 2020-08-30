@@ -1,0 +1,19 @@
+include init
+title Server SHOP
+body
+include header
+main
+    div.container
+        div.row
+            div.col-6.card-body
+                h1.card-title #{good[0]['name']}
+                img(
+                    src='images/'+good[0]['image']
+                    class="card-img-top"
+                )
+                div.text-center
+                    a.btn.btn-primary(
+                        href="#"
+                    ) Go somewhere
+            div.col-6.card-body
+                p #{good[0]['description']}

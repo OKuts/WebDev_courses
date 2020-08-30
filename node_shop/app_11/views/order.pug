@@ -1,0 +1,19 @@
+include init
+h1.order-h1 ORDER
+div.container
+    div.row
+        div.left-order.col-6.cart
+        div.right-order.col-6
+            h3 SEND ORDER
+            form#shop-order(action="")
+                p Name:
+                input(type="text", id="name", placeholder="Your name")
+                p Tel:
+                input(type="text", id="tel", placeholder="Your tel")
+                p Email:
+                input(type="text", id="email", placeholder="Your email")
+                p 
+                    button(type="submit" class="btn btn-success") Finish order
+//- include nav
+include footer
+script(src="js/order.js") 

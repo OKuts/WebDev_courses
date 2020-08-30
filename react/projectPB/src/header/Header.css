@@ -1,0 +1,15 @@
+.header-top {
+    border-bottom: 1px solid  rgb(97, 179, 162);
+    background: rgb(127, 233, 210);
+    height: 2rem;
+}
+
+.header-midle {
+    background: rgb(127, 233, 210);
+}
+.header-midle h1{
+    margin: 0;
+    padding: 15px 0;
+}
+
+

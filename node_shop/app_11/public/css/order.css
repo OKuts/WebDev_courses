@@ -1,0 +1,16 @@
+.order-h1 {
+    background: rgb(91, 214, 167);
+    text-align: center;
+}
+
+.left-order, .right-order {
+    min-height: 300px;
+    background: rgb(166, 216, 223);
+}
+
+.right-order p {
+    margin-top: 10px;
+}
+.right-order {
+    padding-left: 100px;
+}

@@ -1,0 +1,8 @@
+li {
+    list-style-type: none;
+}
+
+.top-menu li{
+    display: inline-block;
+    margin: 0 20px;
+}

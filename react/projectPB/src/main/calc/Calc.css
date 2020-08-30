@@ -1,0 +1,36 @@
+.calc {
+    min-height: 12rem; 
+    background: rgb(172, 170, 170);
+    border: 1px solid gray;
+    padding: 5rem 3rem;
+}
+
+select {
+    height: 29px;
+}
+
+.calc-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.calc-form > * {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+input[type="number"] {
+    width: 5rem;
+}
+
+input[type="submit"], .calc-out {
+    height: 2rem;
+    background: rgb(102, 143, 132);
+}
+
+.calc-out {
+    min-width: 5rem;
+    background-color: white;
+    border: 1px solid  gray;
+    padding: 0 1rem;
+}
+

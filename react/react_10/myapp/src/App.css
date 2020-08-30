@@ -1,0 +1,18 @@
+form {
+  width: 400px;
+  margin: auto;
+}
+
+td {
+  width: 200px;
+}
+
+table {
+  border: 1px solid #ccc; 
+}
+tr {
+  border: 1px solid #ccc;  
+}
+td, th {
+  border: 1px solid #ccc; 
+}

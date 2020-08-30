@@ -1,0 +1,18 @@
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    background: #b4caf5;
+    border-top: 2px solid #789bfa;
+}
+
+.top-menu li{
+    padding: 10px 40px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.top-menu li:hover{
+    background: #789bfa;
+}

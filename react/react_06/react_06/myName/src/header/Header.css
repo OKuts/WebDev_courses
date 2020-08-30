@@ -1,0 +1,19 @@
+.App-header {
+    background-color: #b4caf5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    height: 150px;
+}
+
+.App-logo {
+    height: 100px;
+    flex: none;
+    width: 140px;
+}
+
+.my-name {
+    flex: 1;
+}
