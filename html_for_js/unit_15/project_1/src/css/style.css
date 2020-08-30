@@ -1,0 +1,40 @@
+body {
+    background: url(../images/bois-texture-1456353976vDQ.jpg);
+    background-size: cover;
+    font-size: 16px;
+}
+
+.cv-left {
+    background:#4b4b4b;
+    color: #fff;
+    line-height: 175%;
+}
+
+.cv-left a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cv-right {
+    background: #fff;
+    color: #131313
+}
+
+.cv {
+    margin-top: 50px;
+    border: 1px solid #4b4b4b;
+    box-shadow: 1px 1px 10px #000000;
+    min-height:30vh;
+}
+
+.photo-block {
+    
+}
+
+.contacts {
+    list-style-type: none;
+}
+
+.address {
+    font-style: italic;
+}

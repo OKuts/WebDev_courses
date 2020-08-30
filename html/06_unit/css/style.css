@@ -1,0 +1,49 @@
+
+.first::first-letter {
+    color: red;
+}
+.hello::before{
+    content: "Hello. ";
+}
+.hello::after{
+    content: "***";
+    color: orange;
+    display: block;
+    text-align: center;
+}
+.wrap {
+    height: 304px;
+    width: 304px;
+}
+.square {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.square::before, .square::after {
+    display: block;
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: red;
+    position: absolute;
+}
+.square::before {
+    top: -52px;
+    left: -52px;
+}
+.square::after {
+    bottom: -52px;
+    right: -52px;
+}
+.hooks::before {
+    content: "[_";
+    color: red;
+}
+.hooks::after {
+    content: "_]";
+    color: red;
+}

@@ -1,0 +1,73 @@
+.wrap {
+    height: 555px;
+    width: 555px;
+    margin: auto;
+    position: relative;
+    background-repeat: round;
+}
+.abs{
+    position: absolute;
+}
+.small-horizont {
+    top: 100px;
+    height: 102px;
+    left: 210px;
+    right: 210px;
+    background: #fbab00;
+}
+.midlle-horizont {
+    top: 203px;
+    height: 137px;
+    left: 165px;
+    right: 165px;
+    background:#1bcf1b;
+}
+.big-horizont {
+    top: 341px;
+    height: 150px;
+    left: 70px;
+    right: 70px;
+    background:#b50000;
+}
+.small-vertical {
+    right: 100px;
+    width: 102px;
+    top: 210px;
+    bottom: 210px;
+    background: #fbab00;
+}
+.midlle-vertical {
+    right: 203px;
+    width: 137px;
+    top: 165px;
+    bottom: 165px;
+    background:#1bcf1b;
+}
+.big-vertical {
+    right: 341px;
+    width: 150px;
+    top: 70px;
+    bottom: 70px;
+    background:#b50000;
+}
+.square {
+    height: 130px;
+    width: 130px;
+    background: #63ba07;
+}
+.square-1, .square-2 {
+    top: 85px;
+}
+.square-3 {
+    top: 215px;
+    left:215px;
+}
+.square-1, .square-4 {
+    left:85px;
+}
+.square-2, .square-5 {
+    left: 345px;
+}
+.square-4, .square-5 {
+    top: 345px;
+}

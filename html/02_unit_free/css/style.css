@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px 45px;
+    line-height:1.4;
+}
+.color-bold-black {
+    font-weight: bold;
+}
+.color-bold-red {
+    font-weight: bold;
+    color: red;
+}
+.color-red {
+    color: red;
+}
+.color-underline-green {
+    color: green;
+    text-decoration: underline;
+}
+.color-brown {
+    color:brown;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.text-bold-italic-red {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+.text-bold-italic {
+    font-style: italic;
+    font-weight: bold;
+}
+.text-italic {
+    font-style: italic;
+}

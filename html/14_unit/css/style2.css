@@ -1,0 +1,26 @@
+.block {
+    width: 30%;
+    background: #ccc;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 800px) {
+  .block {
+    width: 500px;
+  }
+  .one {
+    width: 100%;
+  }
+  .two {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .block {
+    width: 90%;
+  }
+}

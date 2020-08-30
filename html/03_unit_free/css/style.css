@@ -1,0 +1,12 @@
+div, span {
+    background: orange;
+    margin: 5px;
+    height: 40px;
+    width: 300px;
+}
+.span-block {
+    display: block;
+}
+.div-inline-block {
+    display: inline-block;
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+form  {
+    width: 450px;
+    margin: 0 auto;
+    background: #ccc;
+}
+label {
+    width: 43%;
+    display: inline-block;
+}
+input[type="radio"] {
+    margin-left: 20px;
+}
+input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+}

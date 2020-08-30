@@ -1,0 +1,64 @@
+.site-header {
+    background: #fff;
+    min-height: 180px;
+    overflow: hidden;
+}
+
+.header-top-part {
+    min-height: 60px;
+    border-bottom:1px solid #edeff1;
+}
+
+.site-nav li, .contacts li{
+    float: left;
+    list-style-type: none;
+    margin-right: 3%;
+}
+
+.site-nav a:hover {
+    color: #ff7013;
+}
+
+.icon img {
+    margin: 0 10px;
+}
+
+.cart-count {
+    position: relative;
+    display: inline-block;
+}
+
+.count {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background: #44525e;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 12px;
+    top: -22px;
+    display: inline-block;
+}
+
+.social-menu {
+    position: absolute;
+    right: 0;
+    width: 100px;
+}
+.social {
+    height: 11px;
+    width: 12px;
+    background: url(../images/social.png);
+    display: inline-block;
+    margin: 20px 4%;
+}
+.twitter {
+    background-position: -29px 0; 
+}
+.google {
+    background-position: -59px 0; 
+}
+.instagram {
+    background-position: -87px 0; 
+}

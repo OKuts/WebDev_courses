@@ -1,0 +1,20 @@
+.block {
+    max-width: 800px;
+    background: red;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+  .block {
+    background:green;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* from 0 px to 600px */
+  .block {
+    background:yellow;
+    width: 400px;
+  }
+}

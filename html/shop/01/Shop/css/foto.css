@@ -1,0 +1,17 @@
+.slider-on-top {
+    background: url(../images/slider_1.png);
+    background-size: cover;
+    padding: 200px;
+    min-height: 650px;
+    
+}
+.bold {
+    font-weight: bolder;
+}
+.slider-on-top p {
+    margin-top: 20px;
+}
+.add-padding {
+    padding-left: 100px;
+    max-width: 70%;
+}

@@ -1,0 +1,64 @@
+.clearfix {
+    width: 100%;
+    clear: both;
+}
+
+p  {
+    background: pink;
+}
+
+.one {
+    background: orange;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.two {
+    background: lime;
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+.parent {
+    padding: 10px;
+    background: lightblue;
+}
+
+.three {
+    background: orange;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.wrap {
+    background: cyan;
+    padding: 5px;
+}
+
+.block {
+    background: #c0c0c0;
+    float: left;
+    width: 47%;
+    min-height: 100px;
+    margin: 0 1.5%;
+}
+
+.block3 {
+    background: #c0c0c0;
+    float: left;
+    width: 31.333333%;
+    min-height: 100px;
+    margin: 0 1%;
+}
+
+.block4 {
+    background: #c0c0c0;
+    float: left;
+    width: 23%;
+    min-height: 100px;
+    margin: 0 1%;
+}

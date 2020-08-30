@@ -1,0 +1,35 @@
+.site-footer {
+    background: #fff;
+    height: 200px;
+}
+
+.block-1-6 li {
+    padding-bottom: 20px;
+}
+
+.block-1-6 a:hover {
+    color: #ff7013;
+}
+
+.pay-method {
+    height: 17px;
+    width: 25px;
+    background: url(../images/payment_bg.png);
+    display: inline-block;
+    margin-top: 20px;
+}
+.amex {
+    background-position: -1px -1px; 
+}
+.second {
+    background-position: -36px -1px; 
+}
+.visa {
+    background-position: -72px -1px; 
+}
+.mastercard {
+    background-position: -108px -1px; 
+}
+.fifth {
+    background-position: -144px -1px; 
+}

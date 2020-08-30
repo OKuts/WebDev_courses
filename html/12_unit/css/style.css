@@ -1,0 +1,16 @@
+body{
+  background-color: #a6a19d;
+}
+
+.container{
+  max-width: 260px;
+  margin: 20px auto;
+}
+
+.slide img{
+  max-width: 100%;
+  height: auto;
+}
+.slider li {
+  border: 1px solid black;
+}

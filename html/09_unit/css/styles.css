@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 180%;
+    background-attachment: fixed;
+    background-color: #FFF;
+    background-image: url(../image/strip.png);
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-size: 100% 100%;
+
+}
+h1 {
+    padding: 20px;
+}
+p {
+    margin-top: 20px;
+}
+.rubric {
+    font-size: large;
+    font-weight: bolder;
+}
+figcaption {
+    font-weight: bold;
+}
+.clearfix {
+    clear: both;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 20px auto 0 auto;
+    padding: 0.5%;
+    background-image: url(../image/header-bg.png);
+    background-repeat: repeat-x;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+	box-shadow: 0 0 10px;
+	border: 1px solid #000000;
+
+}
+.logo  {
+    float: left;
+}
+
+.contacts ul {
+    float: right;
+    list-style-type: none;
+}
+
+aside {
+    float: left;
+    width: 22%;
+    min-height: 100px;
+    margin-right: 1%;
+}
+
+.leftmenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.leftmenu a:hover {
+    font-weight: bolder;
+    margin-left: 5px;
+}
+article {
+    float: left;
+    width: 76%;
+}
+figure {
+    text-align: center;
+}
+.img1 {
+    width: 300px;
+}
+.img2 {
+    width: 95%;
+}
+.bordered {
+	margin:15px;
+	border-radius:10px;
+	border:5px solid #00698c;
+}
+footer {
+    border-top: 1px solid #ccc;
+}
+.center {
+    text-align: center;
+}

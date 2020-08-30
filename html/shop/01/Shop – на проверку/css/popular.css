@@ -1,0 +1,49 @@
+.stars-left {
+    float: left;
+    width: 35%;
+}
+
+.stars-right {
+    float: left;
+    font-size: 13px;
+    width: 65%;
+}
+
+.srars-right-border {
+    margin: 15px;
+    border-left: 2px solid #edeff1;
+    padding-left: 20px;
+}
+
+.srars-right-border p {
+    margin-bottom: 20px;
+}
+
+.srars-right-border img {
+    position: relative;
+    left: -10px;
+    top: -2px;
+}
+.stars-coast {
+    float: right;
+    margin-right: 32px;
+}
+img.picture-back{
+    left: 3px;
+    top: 4px;
+    margin: 0 7px;
+}
+
+.point {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 1.25%;
+    font-size: 30px;
+}
+.point-circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    display: inline-block;
+    background: #ff7013;
+}

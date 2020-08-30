@@ -1,0 +1,39 @@
+.header-menu {
+    background: rgb(154, 196, 186);
+    height: 3rem;
+    margin-bottom: 15px;
+}
+
+.top-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+.top-menu li{
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+}
+
+.top-menu li:hover{
+    background: #509092;
+}
+
+.top-menu a:hover{
+    color: white;
+}
+
+li>a {
+    display: block;
+    width: 100%;
+    height: 100%; 
+    line-height: 3; 
+    color: #475152
+  } 
+
+ul{
+    padding: 0;
+}

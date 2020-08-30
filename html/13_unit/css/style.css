@@ -1,0 +1,27 @@
+html, body {
+  font-size: 18px;
+  background: #ccc;
+}
+
+.wrap {
+  width:800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+span {
+  font-size: 1.2em;
+  color: blue
+}
+article {
+  font-size: 1.1rem;
+}
+footer {
+  font-size: 0.8rem;
+}
+

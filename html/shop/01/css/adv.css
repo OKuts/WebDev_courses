@@ -1,0 +1,76 @@
+.adv-1 {
+    width: 56%;
+    background: #fff;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+
+}
+.adv-2 {
+    width: 39%;
+    background: #fff;
+    float: left;
+    margin-left: 2.2%;
+    margin: 0 1.25%;
+    letter-spacing: 5px;
+    padding: 11px;
+    
+}
+.adv-2 p {
+    text-align: center;
+    padding: 10px;
+
+}
+.adv-img, .adv-cost, .adv-text {
+    float: left;
+    padding: 0 2.23%;
+}
+
+.adv-img {
+    width: 27.72%;
+    background: url(../images/sale_img.png);
+    text-align: center;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 27px;
+    color: #fff;
+}
+.adv-img span {
+    font-style: italic;
+    font-size: 12px;
+}
+.adv-img p {
+    font-weight: bolder;
+}
+.adv-text {
+    width: 44.5%;
+    padding-top: 20px;
+    position: relative;
+}
+.adv-text h3 {
+    font-size: 22px;
+}
+.adv-text p {
+    font-size: 12px; 
+    padding-top: 10px;
+}
+.adv-text::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 45px;
+    background: #f5f5f6;
+    position: absolute;
+    right: 0;
+    top: 27px;
+}
+.adv-cost {
+    width: 27.72%;
+    padding-top: 30px;
+    font-size: 24px;
+    display: inline-block;
+}
+.adv-cost img {
+    padding-right: 12%;
+}

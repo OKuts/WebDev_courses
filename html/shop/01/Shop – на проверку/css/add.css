@@ -1,0 +1,27 @@
+.new-letter {
+    font-size: 30px;
+}
+.join {
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    margin-left: 20px;
+}
+.type-email {
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.join-us {
+    color: #fff;
+    padding: 10px;
+    background: #ff7013;
+    border: none;
+    outline: none;
+    float: right;
+}
+.new-mail {
+    text-align: right;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Регистрационная форма</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Регистрационная форма</legend>
+            <div>
+                <label for="user">Имя пользователя:</label>
+                <input type="text" id="user" required>
+            </div>
+            <div>
+                <label for="login">Логин:</label>
+                <input type="text" id="login" required>
+            </div>
+            <div>
+                <label for="pw">Пароль:</label>
+                <input type="password" id="pw" required>
+            </div>
+            <div>
+                <label for="pw2">Повторите пароль:</label>
+                <input type="password" id="pw2" required>
+            </div>
+            <div>
+                <label for="country">Страна проживания:</label>
+                <input list="list-id" id="country" required>
+                <datalist id="list-id">
+                    <option value="Украина"></option>
+                    <option value="Россия"></option>
+                    <option value="Казахстан"></option>
+                    <option value="Беларусь"></option>
+                </datalist>
+            </div>
+            <div>
+                <label for="list">Согласие на рассылки:</label>
+                <input type="checkbox" id="list" checked>
+            </div>
+            <div>
+                <label>Пол:</label>
+                <input type="radio" name="gender" checked> Муж.
+                <input type="radio" name="gender"> Жен.
+                <input type="radio" name="gender"> Нет
+            </div>
+            <div>
+                <label for="year">Год рождения:</label>
+                <select id="year">
+                    <option value='2020'>2020</option>
+                    <option value='2019'>2019</option>
+                    <option value='2018'>2018</option>
+                    <option value='2017'>2017</option>
+                    <option value='2016'>2016</option>
+                    <option value='2015'>2015</option>
+                    <option value='2014'>2014</option>
+                    <option value='2013'>2013</option>
+                    <option value='2012'>2012</option>
+                    <option value='2011'>2011</option>
+                    <option value='2010'>2010</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

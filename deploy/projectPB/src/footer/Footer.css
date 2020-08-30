@@ -1,0 +1,9 @@
+.site-footer {
+    background: rgb(154, 196, 186);
+    height: 6rem;
+}
+
+.center {
+    text-align: center;
+    line-height: 5; 
+}
